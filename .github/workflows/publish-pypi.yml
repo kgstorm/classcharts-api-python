@@ -38,7 +38,7 @@ jobs:
     needs: build
     environment:
       name: pypi
-      url: https://pypi.org/p/classcharts-api-python
+      url: https://pypi.org/p/classcharts-api
 
     steps:
       - name: Download artifacts

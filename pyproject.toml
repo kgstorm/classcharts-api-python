@@ -3,7 +3,7 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "classcharts-api-python"
+name = "classcharts-api"
 version = "1.0.0"
 description = "Async Python wrapper for the ClassCharts API"
 license = { text = "ISC" }
