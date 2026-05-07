@@ -204,6 +204,20 @@ class ParentClient(BaseClient):
         finally:
             self.student_id = previous_id
 
+    async def get_activity_for_pupil(
+        self,
+        pupil_id: int,
+        from_date: str,
+        to_date: str,
+    ) -> list[dict[str, Any]]:
+        """Get full paginated activity for a specific pupil."""
+        previous_id = self.student_id
+        try:
+            self.select_pupil(pupil_id)
+            return await self.get_full_activity(from_date=from_date, to_date=to_date)
+        finally:
+            self.student_id = previous_id
+
     async def get_attendance_for_pupil(
         self,
         pupil_id: int,
