@@ -1,8 +1,21 @@
 # classcharts-api
 
+> [!WARNING]
+> Deprecated: this project is no longer actively maintained.
+> The Home Assistant ClassCharts integration ecosystem moved forward without this library,
+> so no new feature work is planned.
+
 A Python port of [classcharts-api-js](https://github.com/classchartsapi/classcharts-api-js) by James Cook.
 
 Provides an async Python client for the ClassCharts parent and student APIs.
+
+## Project Status
+
+- Status: deprecated / maintenance mode
+- New features: not planned
+- Bug/security fixes: best effort only
+
+If you are looking for Home Assistant support, use the active ClassCharts integration directly.
 
 ## Installation
 

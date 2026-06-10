@@ -5,11 +5,12 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "classcharts-api"
 version = "1.1.0"
-description = "Async Python wrapper for the ClassCharts API"
+description = "DEPRECATED: Async Python wrapper for the ClassCharts API"
 license = { text = "ISC" }
 requires-python = ">=3.11"
 keywords = ["classcharts", "school", "api", "home-assistant"]
 classifiers = [
+    "Development Status :: 7 - Inactive",
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: ISC License (ISCL)",
     "Framework :: AsyncIO",
